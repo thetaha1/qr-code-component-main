@@ -31,7 +31,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: calc(100vh - 1px);
 }
 
 .container {
@@ -50,8 +50,7 @@ body {
 }
 
 .container h1 {
-  /* color: var(--dark-navy, #1f314f); */
-  color: red;
+  color: var(--dark-navy, #1f314f);
   text-align: center;
   margin-bottom: 16px;
   width: 288px;
@@ -64,14 +63,6 @@ body {
   text-align: center;
   margin: auto;
   margin-bottom: 24px;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
 
 @media (max-width: 375px) {
