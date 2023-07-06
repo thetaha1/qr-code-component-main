@@ -50,7 +50,7 @@ body {
 }
 
 .container h1 {
-  color: var(--dark-navy, #ce0930);
+  color: #ce0930);
   text-align: center;
   margin-bottom: 16px;
   width: 288px;
