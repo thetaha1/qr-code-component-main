@@ -31,7 +31,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 1px);
+  height: 100vh;
 }
 
 .container {
@@ -50,7 +50,7 @@ body {
 }
 
 .container h1 {
-  color: #ce0930);
+  color: var(--dark-navy, #1f314f);
   text-align: center;
   margin-bottom: 16px;
   width: 288px;
