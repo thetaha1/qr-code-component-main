@@ -25,7 +25,8 @@
 body {
   font-family: "Outfit", sans-serif;
   font-size: 15px;
-  background-color: var(--light-grey, #d5e1ef);
+  background-color: red;
+  /* background-color: var(--light-grey, #d5e1ef); */
   margin: 16px;
   display: flex;
   flex-direction: column;
