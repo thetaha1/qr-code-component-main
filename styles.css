@@ -51,6 +51,7 @@ body {
 .container h1 {
   color: var(--dark-navy, #1f314f);
   text-align: center;
+  margin: 24px;
   margin-bottom: 16px;
   width: 288px;
   font: var(--heading);
